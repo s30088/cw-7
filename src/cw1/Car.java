@@ -1,3 +1,5 @@
+package cw1;
+
 public class Car implements Comparable<Car> {
     private String model;
     private Integer productionYear;
@@ -14,7 +16,7 @@ public class Car implements Comparable<Car> {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "cw1.Car{" +
                 "model='" + model + '\'' +
                 ", productionYear=" + productionYear +
                 '}';
